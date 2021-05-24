@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #6c63FF;
+}
+
+/* Start header */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header nav .logo {
+    color: #6c63FF;
+    font-size: 20px;
+}
+
+header nav .menu {
+    list-style: none;
+}
+
+header nav .menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav .menu li a {
+    color: #6c63FF;
+    font-size: 16px;
+}
+
+/* End header */
+
+/* Start about section */
+
+.about {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about .about-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .about-info .about-text {
+    width: 60%;
+}
+
+.about .about-info .about-text p {
+    margin-bottom: 30px;
+}
+
+.about .about-info .about-text .button {
+    border: 1px solid #6c63FF;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.about .about-info .about-image {
+    width: 40%;
+}
+
+.about .about-info .about-image img {
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .about .about-info {
+        display: block;
+    }
+    .about .about-info .about-text {
+        width: 100%;
+    }
+    .about .about-info .about-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+/* End about section */
+
+/* Start services section */
+
+.our-services {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.our-services .services {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-services .services .service {
+    margin: 20px 10px;
+    padding: 20px;
+    -webkit-box-shadow: 0 4px 16px rgb(17 17 26 / 5%), 0 8px 32px rgb(17 17 26 / 5%);
+    -moz-box-shadow: 0 4px 16px rgb(17 17 26 / 5%), 0 8px 32px rgb(17 17 26 / 5%);
+    -o-box-shadow: 0 4px 16px rgb(17 17 26 / 5%), 0 8px 32px rgb(17 17 26 / 5%);
+    box-shadow: 0 4px 16px rgb(17 17 26 / 5%), 0 8px 32px rgb(17 17 26 / 5%);
+}
+
+.services .service .service-image img {
+    width: 160px;
+}
+
+/* End services section */
